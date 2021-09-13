@@ -11,6 +11,25 @@ Article = news.Article
 base_url = app.config["ARTICLE_API_BASE_URL"]
 sources_url = app.config['NEWS_SOURCES']
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def get_news():
     '''
     Function that gets the json response to url request
