@@ -11,6 +11,11 @@ class News:
         self.country = country
     
         
+    
+    
+    
+    
+    
         
         
 class Article :
