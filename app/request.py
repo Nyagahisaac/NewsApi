@@ -55,20 +55,6 @@ def get_news():
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def process_results(news_list):
     '''
     Function  that processes the news result and transform them to a list of Objects
