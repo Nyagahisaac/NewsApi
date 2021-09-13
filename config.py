@@ -17,16 +17,6 @@ class ProdConfig(Config):
 
 
 
-
-
-
-
-
-
-
-
-
-
 class DevConfig(Config):
     '''
     Development configuration child class 
