@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
-.card-body:hover{
+.news-card:hover{
   background-color: aqua;
   color: black;
 }

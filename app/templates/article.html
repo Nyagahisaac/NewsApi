@@ -13,28 +13,35 @@
 <div class="container">
     <center>
         <h3 class="  badge-dark header  " style=" text-align:center;font-size: 40px; text-transform: capitalize;font-family: 'Kanit', sans-serif;
-    font-weight: bold;"> ~ News Articel <span class="blinking-cursor ">~</span></h3>
+    font-weight: bold;"> ~ News Article <span class="blinking-cursor ">~</span></h3>
     </center>
     
 
 
     <div class="row">
-       
+       <div class="col-md-2">
+        <h1> Article Menu</h1>
+        <li>Top News</li>
+        <li>Upcoming News</li>
+       </div>
 
         </div>
         {% for article in news %}
-            <div class="article-card col-md-12 " style="box-shadow: 2px 2px 15px 2px rgba(0,0,0,0.25); padding:10px; margin-top: 30px;">
+            <div class="article-card col-md-12" style="box-shadow: 2px 2px 15px 2px rgba(0,0,0,0.25); padding:10px; margin-top: 30px;">
               
                 <div class="card-body  art" style="background-color: black;color: cornsilk;">
                     <img src="" alt="" class="img-responsive">
                     <div style="text-align: center; text-transform: capitalize; ">
-                        <p class="p-5 " style="line-height: 30px; text-align: center;text-transform: capitalize;">
+                        <p class="p-5  " style="line-height: 30px; text-align: center;text-transform: capitalize;">
                             <img src="{{article.urlToImage}}" alt="" srcset=""><br>
-                            AUTHOR: {{article.author}} <br>
-                            TITLE: {{article.title}} <br>
-                            DESCRIPTION: {{article.description}} <br>     
-                            PUBLISHEDAt: {{article.publishedAt}} <br>
-                            CONTENT: {{article.content}}
+                            <div class=" text-center jumbotron" style="color: black; font-size: 15px; font-weight: 600;">
+                               <span style="color: blue;">AUTHOR:</span>  {{article.author}} <br>
+                               <span style="color: blue;"> TITLE:</span> {{article.title}} <br>
+                                <span style="color: blue;"> DESCRIPTION:</span> {{article.description}} <br>     
+                                <span style="color: blue;"> PUBLISHEDAt:</span> {{article.publishedAt}} <br>
+                                <span style="color: blue;"> CONTENT:</span> {{article.content}}
+                            </div>
+                           
                         </p>
                     </div>
 
