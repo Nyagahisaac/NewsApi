@@ -1,0 +1,47 @@
+{% extends 'base.html'%}
+{% import 'macro.html' as macro %}
+
+
+{% block styles%}
+    {{ super() }}
+    <link rel="stylesheet" href="/app/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <center>
+
+    <h3 class="text-center badge badge-dark header  " style=" text-align:center;font-size: 40px; text-transform: capitalize;font-family: 'Kanit', sans-serif;
+    font-weight: bold;"> 
+      ~ News Source <span class="blinking-cursor ">~</span></h3>
+    </center>
+
+    <div class="row">
+        {% for news in new_sources %}
+        <a class="col-md-4" href="/news/{{news.id}}">
+
+            <div class="  news-card">
+
+                <div class="card-body ">
+                    <img src="https://i.pinimg.com/474x/26/91/f2/2691f2fa1a0f078f5f274edf7fea6763.jpg" alt=""
+                        class="img-responsive">
+                    <div class="text-center jumbotron">
+                        <p style="text-transform: capitalize ">
+                            Id: {{news.id}} <br>
+                            Name: {{news.name}} <br>
+                            Link: {{news.url}} <br>
+                            Category: {{news.category}} <br>
+                            Language: {{news.language}} <br>
+                            Country: {{news.country}} <br>
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+    {% endblock %}
