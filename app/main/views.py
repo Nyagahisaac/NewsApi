@@ -1,11 +1,17 @@
 from flask import render_template
 from app import app
 from ..request import get_news,get_article
-# from progressbar  import  NgProgressModule
-# from progressbar  import NgProgressHttpClientModule 
+
 
 
 ...
+
+
+
+
+
+
+
 
 @app.route('/')
 def index():
@@ -21,21 +27,6 @@ def index():
     
     title = 'Home - Welcome to the best news Article Website online'
     return render_template('index.html',title = title, new_sources = news_sources)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @app.route('/news/<string:new_id>')
 def news(new_id):
