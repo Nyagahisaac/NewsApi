@@ -29,14 +29,6 @@ def news(new_id):
     print('----------------')
     return render_template('article.html', news = news)
 
-# @app.route('/article/<int:article_id>')
-# def article(id):
-#     '''
-#     View article page function that returns the article details page and its data
-#     '''
-    
-#     article = get_article(id)
-#     author = f'{article.author}'
-#     return render_template('article.html',author = author)
+
     
     
