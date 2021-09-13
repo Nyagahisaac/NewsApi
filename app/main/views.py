@@ -22,6 +22,21 @@ def index():
     title = 'Home - Welcome to the best news Article Website online'
     return render_template('index.html',title = title, new_sources = news_sources)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @app.route('/news/<string:new_id>')
 def news(new_id):
     
