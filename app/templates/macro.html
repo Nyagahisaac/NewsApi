@@ -1,0 +1,23 @@
+{% macro displayNewsList(news_sources) %}
+
+    {% for news in news_sources %}
+    <a href="">
+    <div class="card">
+        <div class="card-header">
+            
+            <img src="" alt="" class="img-responsive">
+        </div>
+        <div class="card-body">
+            <p>{{news.id}}</p>
+            <p>{{news.name}}</p>
+            <p>{{news.url}}</p>
+            <p>{{news.category}}</p>
+            <p>{{news.language}}</p>
+            <p>{{news.country}}</p>
+        </div>
+       
+    </div>
+    </a>  
+    {% endfor %}
+
+{% endmacro %}

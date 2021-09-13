@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+@media screen and (min-width: 601px) {
+    .effect>h1 {
+      font-size: 73px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .effect>h1 {
+      font-size: 40px;
+    }
+  }
+  
+  .effect>h1 {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+  
+  .content>h5 {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+  
+  .blinking-cursor {
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+  
+  @keyframes blink {
+  
+    from,
+    to {
+      color: transparent;
+    }
+  
+    50% {
+      color: black;
+    }
+  }
+  
+  @-moz-keyframes blink {
+  
+    from,
+    to {
+      color: transparent;
+    }
+  
+    50% {
+      color: black;
+    }
+  }
+  
+  @-webkit-keyframes blink {
+  
+    from,
+    to {
+      color: transparent;
+    }
+  
+    50% {
+      color: black;
+    }
+  }
+  
+  @-ms-keyframes blink {
+  
+    from,
+    to {
+      color: transparent;
+    }
+  
+    50% {
+      color: black;
+    }
+  }
+  
+  @-o-keyframes blink {
+  
+    from,
+    to {
+      color: transparent;
+    }
+  
+    50% {
+      color: black;
+    }
+  }
