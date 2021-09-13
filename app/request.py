@@ -82,6 +82,14 @@ def process_results(news_list):
     return news_results
 
     
+    
+    
+    
+    
+    
+    
+    
+    
 def get_article(id):
     '''
     Function that gets the json response to url request
