@@ -7,7 +7,7 @@ from .models import news,article
 News = news.News
 Article = news.Article
 
-api_key = app.config['NEWS_API_KEY']
+# api_key = app.config['NEWS_API_KEY']
 base_url = app.config["ARTICLE_API_BASE_URL"]
 sources_url = app.config['NEWS_SOURCES']
 

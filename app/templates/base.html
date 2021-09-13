@@ -3,6 +3,13 @@
 <html lang="en">
 
 <head>
+
+    {% block styles%}
+    {{ super() }}
+    <link rel="stylesheet" href="/app/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    {% endblock %}
     <meta charset="UTF-8">
     {% if title %}
     <title> {{ title }}</title>
@@ -10,3 +17,13 @@
     <title>Welcome to the best news Article Website</title>
     {% endif %}
 </head>
+
+<body>
+ 
+    <div class="nav">
+        {% block navbar %}
+        {% include 'navbar.html' %}
+        {% endblock %}
+    </div>
+
+</body>
