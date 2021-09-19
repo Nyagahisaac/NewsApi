@@ -4,7 +4,10 @@
 
 # Description
 
-NationalNews is an appplication thats aids a user to keep track with the day to day occurence all over the world by providing the latest news . The application give some news sources that are available all over the world with variety of languages.The user is provided with top headlines on various news that are heading the various news platforms and also breaking news. follow this link to see the live application https://dannews.herokuapp.com/
+NationalNews is an appplication thats aids a user to keep track with the day to day occurence all over the world by providing the latest news . The application give some news sources that are available all over the world with variety of languages.The user is provided with top headlines on various news that are heading the various news platforms and also breaking news. 
+# Live link
+follow this link to see the live application https://dannews.herokuapp.com/
+
 
 ## Setup/Installation Requirements
 
