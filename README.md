@@ -1,4 +1,4 @@
-# National News
+# News Api
 # Author
 * Nyagah-Isaac 
 
@@ -18,7 +18,7 @@ Development Installation
 
    ## 1. Cloning the repository:
 
- git clone [ https://github.com/Owiti-Charles/News_Bulletins.git ]
+ git clone [ https://github.com/Nyagahisaac/NewsApi.git ]
 
    ## 2. Move to the folder and install requirements
 
